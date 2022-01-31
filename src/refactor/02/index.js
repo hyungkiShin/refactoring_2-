@@ -1,5 +1,5 @@
-var INVOICE = require('./json/invoices.json');
-var PLAYS = require('./json/play.json');
+var INVOICE = require('../../json/invoices.json');
+var PLAYS = require('../../json/play.json');
 
 function statement(invoice, plays) {
   let totalAmount = 0;
